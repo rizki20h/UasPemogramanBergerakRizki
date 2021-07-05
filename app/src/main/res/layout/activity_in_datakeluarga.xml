@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#00cba9"
+        android:orientation="vertical">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/wave">
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="440dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#00cba9"
+            android:textAlignment="center"
+            android:text="Input Data Orang Tua"
+            android:fontFamily="@font/patrick"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Ayah"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <EditText
+            android:drawableStart="@drawable/ic_pria"
+            android:drawablePadding="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="20dp"
+            android:id="@+id/in_namaAyah"
+            android:hint="Masukkan Nama Ayah"
+            android:paddingStart="10dp"
+            android:background="@drawable/round"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pekerjaan Ayah"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <EditText
+            android:drawableStart="@drawable/ic_jobs"
+            android:drawablePadding="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="20dp"
+            android:id="@+id/in_perkerjaanAyah"
+            android:hint="Pekerjaan Ayah"
+            android:paddingStart="10dp"
+            android:background="@drawable/round"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Ibu"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/in_namaIbu"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_wanita"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="20dp"
+            android:hint="Masukkan Nama Ibu"
+            android:paddingStart="10dp"
+            android:background="@drawable/round"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pekrjaan Ibu"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/in_pekerjaanIbu"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_jobs"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="20dp"
+            android:hint="Pekerjaan Ibu"
+            android:paddingStart="10dp"
+            android:background="@drawable/round"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/in_alamat"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_location"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="20dp"
+            android:hint="Alamat Orang Tua"
+            android:paddingStart="10dp"
+            android:background="@drawable/round"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:id="@+id/input_dataOrtu"
+            android:textColor="@color/white"
+            android:fontFamily="@font/patrick"
+            android:text="Input"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/wave2">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00cba9"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>
